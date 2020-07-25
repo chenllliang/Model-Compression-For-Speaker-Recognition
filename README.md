@@ -5,7 +5,7 @@
 * Dataset: VoxCeleb1, TIMIT, CommonVoice, CN_Celeb, VCC2016
 
 ## Todo List
--[ ] Finish Example Experiment
--[ ] Knowledge Distillation of X-vector system 
--[ ] Model Pruning of X-vector system
--[ ] ...
+- [ ] Finish Example Experiment
+- [ ] Knowledge Distillation of X-vector system 
+- [ ] Model Pruning of X-vector system
+- [ ] to be continued
