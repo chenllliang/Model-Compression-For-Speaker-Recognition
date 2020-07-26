@@ -36,7 +36,6 @@ testloader = torch.utils.data.DataLoader(testset, batch_size=10,
                                          shuffle=False, num_workers=2)
 
 device =  torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
-Loss = nn.CrossEntropyLoss()
 
 
 teacher = teacherNet().to(device)
