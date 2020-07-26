@@ -13,6 +13,7 @@ class studentNet(nn.Module):
         self.fc1 = nn.Linear(28 * 28, 800)
         self.fc2 = nn.Linear(800, 100)
         self.fc3 = nn.Linear(100, 10)
+        
 
     def forward(self, x):
         x = x.view(-1, 28 * 28)
@@ -41,7 +42,6 @@ class teacherNet(nn.Module):
         out = self.fc1(out) # 1 * 500
         out = F.relu(out)
         out = self.fc2(out) # 1 * 10
-        out = F.log_softmax(out, dim = 1)
         return out
 
 if __name__=="__main__":
