@@ -1,4 +1,2 @@
 *.pyc
-*.pt
-
-knowledgeDistillation/example/data/MNIST/*
+Model_Compression/knowledgeDistillation/example/data
