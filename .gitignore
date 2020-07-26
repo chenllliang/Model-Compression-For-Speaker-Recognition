@@ -1,3 +1,3 @@
-.pyc
-.pt
+*.pyc
+*.pt
 knowledgeDistillation/example/data/MNIST
