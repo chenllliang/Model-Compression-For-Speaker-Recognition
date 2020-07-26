@@ -1,2 +1,3 @@
 *.pyc
+*.pth
 Model_Compression/knowledgeDistillation/example/data
